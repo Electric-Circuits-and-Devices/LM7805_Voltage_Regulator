@@ -1,0 +1,206 @@
+(footprint "Resistor-Plugin_0.5Watt"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d8ac68e3-dd8d-4482-827e-96773c5792dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7df626a6-8092-4063-b75c-ef3d8b0d97a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Library:Resistor-Plugin_0.5Watt"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91914875-794e-4467-96b1-a2d85b935b08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a64b5a88-23f0-4b4e-b887-9bc3db2e9ead")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resistor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5c3b10c-2043-44a6-b086-1eb73ac562f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -9.8)
+		(end 0 -5.25)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4b1de5fe-4669-4be3-8973-9d654a95a960")
+	)
+	(fp_line
+		(start 0 5.25)
+		(end 0 9.9)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cf21e0fe-5707-49eb-b336-1d488ddc7409")
+	)
+	(fp_rect
+		(start -6 -17)
+		(end 6 17)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "729254d3-35ba-49b2-be36-d6efaeb93b76")
+	)
+	(fp_rect
+		(start -1.75 -5.25)
+		(end 1.75 5.25)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2ebae684-6e2c-46a2-808d-a68f29cc54f8")
+	)
+	(fp_circle
+		(center 0 -12.5)
+		(end 2.5 -12.5)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "02eea871-691b-4b97-867f-d1f1b273d655")
+	)
+	(fp_circle
+		(center 0 12.5)
+		(end 2.5 12.5)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5fc40b8f-14b2-481d-9728-9656113d03d4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e4b5166a-8f70-4d8c-8641-e6de77718aa2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -12.5)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "688cca21-abfd-4212-a325-73f9c917a132")
+	)
+	(pad "2" thru_hole circle
+		(at 0 12.5)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "4c7efdf8-456d-4d21-ba4c-5df5645b4821")
+	)
+	(model "D:/OneDrive/Documents/KiCad/8.0/3dmodels/24.106.STEP"
+		(offset
+			(xyz 0 12.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "D:/OneDrive/Documents/KiCad/8.0/3dmodels/24.106.STEP"
+		(offset
+			(xyz 0 -12.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
